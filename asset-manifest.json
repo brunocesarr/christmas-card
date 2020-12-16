@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/christmas-card/static/css/main.7214b1ea.chunk.css",
+    "main.css": "/christmas-card/static/css/main.359abbee.chunk.css",
     "main.js": "/christmas-card/static/js/main.d938066d.chunk.js",
     "main.js.map": "/christmas-card/static/js/main.d938066d.chunk.js.map",
     "runtime-main.js": "/christmas-card/static/js/runtime-main.e8767668.js",
@@ -10,7 +10,7 @@
     "static/js/3.5bf7bb8c.chunk.js": "/christmas-card/static/js/3.5bf7bb8c.chunk.js",
     "static/js/3.5bf7bb8c.chunk.js.map": "/christmas-card/static/js/3.5bf7bb8c.chunk.js.map",
     "index.html": "/christmas-card/index.html",
-    "static/css/main.7214b1ea.chunk.css.map": "/christmas-card/static/css/main.7214b1ea.chunk.css.map",
+    "static/css/main.359abbee.chunk.css.map": "/christmas-card/static/css/main.359abbee.chunk.css.map",
     "static/js/2.958bf27a.chunk.js.LICENSE.txt": "/christmas-card/static/js/2.958bf27a.chunk.js.LICENSE.txt",
     "static/media/jingleBells.933827ab.mp3": "/christmas-card/static/media/jingleBells.933827ab.mp3",
     "static/media/App.scss": "/christmas-card/static/media/snow-tree-2.1894e9bd.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.e8767668.js",
     "static/js/2.958bf27a.chunk.js",
-    "static/css/main.7214b1ea.chunk.css",
+    "static/css/main.359abbee.chunk.css",
     "static/js/main.d938066d.chunk.js"
   ]
 }
