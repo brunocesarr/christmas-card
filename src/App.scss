@@ -1,17 +1,65 @@
 body {
-  // background-color: #282c34;
   background-image: url('assets/images/snow-tree-2.jpg');
   background-size: cover;
-  min-height: 100vh;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+  
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+
+  font-family: 'Dancing Script, cursive';
+  font-size: '1.2em';
 }
 
 .App {
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    justify-content: center !important;
+  }
+  .card {
+    margin: 10%;
+    width: 70%;
+    background-color: 'transparent';
+  };
+  .img {
+    padding: 10px 0;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .img {
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+@keyframes morph {
+  0% { background-color: white; }
+  50% { background-color: transparent; }
+  100% { background-color: rgba(#9297ae, 0.75); }
+}
+
+#card-back {
+  animation: morph 3s normal infinite;
 }
 
 @function random_range($min, $max) {
@@ -23,6 +71,7 @@ body {
 .snow-flake {
   $total: 500;
   position: absolute;
+  top: 0;
   color: white;
 
   &:after {

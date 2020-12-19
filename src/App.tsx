@@ -9,13 +9,11 @@ import TextAnimation from './components/TextAnimation';
 
 const useStyles = makeStyles({
   card: {
-    position: 'absolute',
-    top: '10%',
-    left: '10%',
+    marginLeft: '10%',
     minWidth: 500,
     maxWidth: 500,
     minHeight: 500,
-    backgroundColor: '#9297ae',
+    backgroundColor: 'transparent',
   },
   title: {
     fontSize: 28,
@@ -25,11 +23,6 @@ const useStyles = makeStyles({
     fontFamily: 'Dancing Script, cursive',
     fontSize: '1.2em',
   },
-  img: {
-    padding: '10px 0',
-    minWidth: 400,
-    maxWidth: 400,
-  }
 });
 
 const App: React.FC = () => {
@@ -52,12 +45,12 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <Card className={classes.card} variant="elevation" elevation={5}>
+      <Card id="card-back" className="card" variant="elevation" elevation={10}>
         <CardContent>
           <Divider variant="middle"/>
           <TextAnimation></TextAnimation>
           <Divider variant="middle"/>
-          <img src={HoHoHo} alt="HoHoHo" className={classes.img}/>
+          <img src={HoHoHo} alt="HoHoHo" className="img"/>
           <Divider variant="middle"/>
         </CardContent>
       </Card>

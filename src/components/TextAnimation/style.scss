@@ -77,14 +77,13 @@ $currentPercentage: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: calc(10px + 1vw);
+	font-size: 1.2em;
 	font-family: Langar, cursive, monospace, sans-serif;
 	color: white; // hacker green
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	&::after {
 		content: "​"; // zero-width space to retain element height
-		position: relative;
 		@media (max-width: 575px) { top: -33px; }
 		display: inline-block;
 		padding-right: 3px;
